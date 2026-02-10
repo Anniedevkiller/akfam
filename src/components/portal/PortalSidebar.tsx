@@ -49,7 +49,7 @@ export function PortalSidebar() {
                         <SidebarMenuItem key={item.title}>
                             <SidebarMenuButton
                                 asChild
-                                active={pathname === item.url}
+                                isActive={pathname === item.url}
                                 tooltip={item.title}
                                 className="hover:bg-sidebar-accent hover:text-sidebar-accent-foreground data-[active=true]:bg-primary data-[active=true]:text-primary-foreground"
                             >

@@ -25,22 +25,22 @@ export function MarketingFooter() {
                     <div>
                         <h3 className="text-white font-semibold mb-4">Services</h3>
                         <ul className="space-y-2 text-sm text-slate-400">
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Global Logistics</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Warehousing</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Sourcing</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Visa Services</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Trade Consulting</Link></li>
+                            <li><Link href="/services/logistics" className="hover:text-emerald-400 transition-colors">Global Logistics</Link></li>
+                            <li><Link href="/services/logistics" className="hover:text-emerald-400 transition-colors">Warehousing</Link></li>
+                            <li><Link href="/services/sourcing" className="hover:text-emerald-400 transition-colors">Sourcing</Link></li>
+                            <li><Link href="/services/visa" className="hover:text-emerald-400 transition-colors">Visa Services</Link></li>
+                            <li><Link href="/services/compliance" className="hover:text-emerald-400 transition-colors">Trade Consulting</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 className="text-white font-semibold mb-4">Company</h3>
                         <ul className="space-y-2 text-sm text-slate-400">
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">About Us</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Careers</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Blog</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Contact</Link></li>
-                            <li><Link href="#" className="hover:text-emerald-400 transition-colors">Privacy Policy</Link></li>
+                            <li><Link href="/company" className="hover:text-emerald-400 transition-colors">About Us</Link></li>
+                            <li><Link href="/company" className="hover:text-emerald-400 transition-colors">Careers</Link></li>
+                            <li><Link href="/resources" className="hover:text-emerald-400 transition-colors">Blog</Link></li>
+                            <li><Link href="/company" className="hover:text-emerald-400 transition-colors">Contact</Link></li>
+                            <li><Link href="/company" className="hover:text-emerald-400 transition-colors">Privacy Policy</Link></li>
                         </ul>
                     </div>
 

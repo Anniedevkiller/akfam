@@ -1,11 +1,11 @@
 
-import { 
-  Truck, 
-  Globe, 
-  ShieldCheck, 
-  FileText, 
-  BarChart3, 
-  Users, 
+import {
+  Truck,
+  Globe,
+  ShieldCheck,
+  FileText,
+  BarChart3,
+  Users,
   Package
 } from "lucide-react";
 
@@ -127,28 +127,4 @@ export const chatMessages = [
   { sender: "Agent", text: "It is currently clearing customs in QA. Expected release tomorrow.", time: "10:05 AM" },
 ];
 
-// --- Admin Panel Data ---
-
-export const adminStats = [
-  { label: "Total Revenue", value: "$4.2M", change: "+12.5%", icon: BarChart3 },
-  { label: "Active Users", value: "8,540", change: "+5.2%", icon: Users },
-  { label: "Shipments (MTD)", value: "1,234", change: "+8.1%", icon: Package },
-  { label: "Open Support Tickets", value: "42", change: "-12%", icon: FileText },
-];
-
-export const recentUsers = [
-  { name: "Acme Corp", email: "contact@acme.com", role: "Enterprise", status: "Active" },
-  { name: "Global Traders Ltd", email: "support@globaltraders.com", role: "Business", status: "Active" },
-  { name: "TechStart Inc", email: "admin@techstart.io", role: "Startup", status: "Suspended" },
-  { name: "BioLife Phantom", email: "logistics@biolife.com", role: "Enterprise", status: "Active" },
-];
-
-export const revenueData = [
-  { name: "Jan", total: 1200 },
-  { name: "Feb", total: 2100 },
-  { name: "Mar", total: 1800 },
-  { name: "Apr", total: 2400 },
-  { name: "May", total: 3200 },
-  { name: "Jun", total: 3800 },
-  { name: "Jul", total: 4200 },
-];
+// --- Admin Panel Data Removed ---

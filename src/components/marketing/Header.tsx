@@ -150,7 +150,7 @@ export function MarketingHeader() {
                                     <Link href="/resources" className="text-base font-medium hover:text-primary">Resources</Link>
                                     <Link href="/company" className="text-base font-medium hover:text-primary">Company</Link>
                                     <div className="h-px bg-border my-2" />
-                                    <Link href="/track" className="text-base font-medium hover:text-primary">Track Shipment</Link>
+                                    <Link href="/portal/track" className="text-base font-medium hover:text-primary">Track Shipment</Link>
                                     <Link href="/portal">
                                         <Button className="w-full mt-2">Client Portal</Button>
                                     </Link>
